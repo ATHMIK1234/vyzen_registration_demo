@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:fillViewport="true"
+    android:background="#e7f6f9">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        tools:context=".page3">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout59"
+            android:layout_width="323dp"
+            android:layout_height="76dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/rounnded_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout60"
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_white_background"
+            app:layout_constraintEnd_toEndOf="@+id/constraintLayout59"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/constraintLayout59"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout59">
+
+            <TextView
+                android:id="@+id/p5textView"
+                android:layout_width="326dp"
+                android:layout_height="157dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/rounded_white_background"
+                android:padding="20dp"
+                android:text="Candidate Application Form - VYZEN"
+                android:textSize="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <View
+                android:id="@+id/p5view3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#808080"
+                app:layout_constraintEnd_toEndOf="@+id/p5textView6"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/p5textView" />
+
+            <TextView
+                android:id="@+id/p5textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="The name, email, and photo will be recorded when you upload files and submit this form"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/p5view3" />
+
+            <View
+                android:id="@+id/p5view4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#808080"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/p5textView5" />
+
+            <TextView
+                android:id="@+id/p5textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:padding="20dp"
+                android:text="* Indicates required question"
+                android:textColor="#FF0000"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/p5textView5" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout61"
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingBottom="15dp"
+            android:background="@drawable/border"
+            app:layout_constraintEnd_toEndOf="@+id/constraintLayout60"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/constraintLayout60"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout60"
+            tools:ignore="MissingConstraints">
+
+
+            <TextView
+                android:id="@+id/p4textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cololred_background"
+                android:gravity="center"
+                android:text="ACKNOWLEDGEMENT CONSENT"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/p6backlbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:text="Consent to conduct background checks"
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="@+id/p4textView11"
+                app:layout_constraintStart_toStartOf="@+id/p4textView11"
+                app:layout_constraintTop_toBottomOf="@+id/p4textView11"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/p4textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="52dp"
+                android:layout_marginEnd="28dp"
+                android:text="*"
+                android:textColor="#FF0000"
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <RadioGroup
+                android:id="@+id/p6groupbackradio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:paddingLeft="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/p6backlbl"
+                tools:ignore="InvalidId,MissingConstraints">
+
+                <RadioButton
+                    android:id="@+id/p6backyes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="YES"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/p6backno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="NO"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/p6backmaybe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="MAYBE"
+                    android:textSize="16dp" />
+
+            </RadioGroup>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout62"
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingBottom="15dp"
+            android:paddingTop="10dp"
+            android:background="@drawable/border"
+            app:layout_constraintEnd_toEndOf="@+id/constraintLayout61"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/constraintLayout61"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout61"
+            tools:ignore="MissingConstraints">
+
+
+            <TextView
+                android:id="@+id/p6druglbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:text="Consent to Drug/Alcohol Testing Consent
+"
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/p6textView9"
+                android:layout_width="7dp"
+                android:layout_height="29dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="28dp"
+                android:text="*"
+                android:textColor="#FF0000"
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <RadioGroup
+                android:id="@+id/p6groupdrugradio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:paddingLeft="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/p6druglbl"
+                tools:ignore="InvalidId,MissingConstraints">
+
+                <RadioButton
+                    android:id="@+id/p6drugyes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="YES"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/p6drugno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="NO"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/p6drugmaybe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="MAYBE"
+                    android:textSize="16dp" />
+
+            </RadioGroup>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout63"
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingBottom="15dp"
+            android:background="@drawable/border"
+            app:layout_constraintEnd_toEndOf="@+id/constraintLayout62"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/constraintLayout62"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout62"
+            tools:ignore="MissingConstraints">
+
+
+            <TextView
+                android:id="@+id/p6crimlbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:text="Disclosure of any Criminal Convictions or Pending Criminal Cases"
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/p6textView28"
+                android:layout_width="7dp"
+                android:layout_height="29dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="28dp"
+                android:text="*"
+                android:textColor="#FF0000"
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/p6crimdis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:text="Consent to conduct background checks"
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="@+id/p6crimlbl"
+                app:layout_constraintStart_toStartOf="@+id/p6crimlbl"
+                app:layout_constraintTop_toBottomOf="@+id/p6crimlbl"
+                tools:ignore="MissingConstraints" />
+
+            <RadioGroup
+                android:id="@+id/p6groupcrimradio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:paddingLeft="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/p6crimdis"
+                tools:ignore="InvalidId,MissingConstraints">
+
+                <RadioButton
+                    android:id="@+id/p6crimyes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="YES"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/p6crimno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="NO"
+                    android:textSize="16dp" />
+
+            </RadioGroup>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout64"
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/border"
+            app:layout_constraintEnd_toEndOf="@+id/constraintLayout63"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/constraintLayout63"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout63"
+            tools:ignore="MissingConstraints">
+
+
+            <TextView
+                android:id="@+id/p6crimdetlbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:text="Details of any Criminal Convictions or Pending Criminal Cases"
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/p5textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="*"
+                android:textColor="#FF0000"
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/p6crimdetdis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:text="Description: If you selected 'Yes' above, please provide details of your criminal convictions or pending criminal cases, including charges, dates, and outcomes."
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/p6crimdetlbl" />
+
+
+            <EditText
+                android:id="@+id/p6crimdet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="25"
+                android:hint="Your answer"
+                android:inputType="text"
+                android:padding="20dp"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/p6crimdetdis" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout65"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingBottom="15dp"
+        android:background="@drawable/border"
+        app:layout_constraintEnd_toEndOf="@+id/constraintLayout64"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/constraintLayout64"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout64"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/p6acknowlbl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:text="By submitting this form, I acknowledge that all the information provided is true and accurate to the best of my knowledge."
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/p5textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="28dp"
+            android:text="*"
+            android:textColor="#FF0000"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioGroup
+            android:id="@+id/p6groupaknowradio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:paddingLeft="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/p6acknowlbl"
+            tools:ignore="InvalidId,MissingConstraints">
+
+            <RadioButton
+                android:id="@+id/p6aknowyes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="YES"
+                android:textSize="16dp" />
+
+            <RadioButton
+                android:id="@+id/p6aknowno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="NO"
+                android:textSize="16dp" />
+
+        </RadioGroup>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:id="@+id/p6linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/border"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/constraintLayout65"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout65"
+            tools:ignore="MissingConstraints">
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:backgroundTint="@color/white"
+                android:onClick="page6back"
+                android:text="Back"
+                android:textColor="#10A598"
+                android:textSize="14dp"
+                app:layout_constraintStart_toStartOf="@+id/constraintLayout20"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout20" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/p6linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#10A598"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toEndOf="@+id/p6linearLayout2"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout65"
+            tools:ignore="MissingConstraints">
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:backgroundTint="#10A598"
+                android:onClick="page6submit"
+                android:text="Submit"
+                android:textColor="#FFFFFF"
+                android:textSize="14dp"
+                app:layout_constraintStart_toStartOf="@+id/constraintLayout42"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout42" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/p5button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#00FFFFFF"
+            android:onClick="page6clear"
+            android:layout_marginTop="16dp"
+            android:text="Clear form"
+            android:textColor="#10A598"
+            android:textSize="14dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/constraintLayout64"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout65"
+            tools:ignore="MissingConstraints" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
