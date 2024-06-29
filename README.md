@@ -40,4 +40,6 @@ Registration_demo
 
 ### Result : 
     --It shows the result if you had succesfully submitted the application.
-    
+
+## DataBase :
+    -- we are using firebase Realtime DataBase to store data and storage to store documents
